@@ -1,5 +1,5 @@
+package org.example.factory;
 
-// DocumentFactory.java
 public class DocumentFactory {
 
     // TODO: Implement this method to return the correct type of document

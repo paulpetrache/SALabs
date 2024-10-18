@@ -1,5 +1,5 @@
+package org.example.factory;
 
-// Document.java
 public interface Document {
     void open();
 }

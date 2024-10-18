@@ -1,5 +1,8 @@
+package org.example;
 
-// DocumentEditor.java
+import org.example.factory.Document;
+import org.example.factory.DocumentFactory;
+
 public class DocumentEditor {
 
     public void openDocument(String type) {

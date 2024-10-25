@@ -1,6 +1,4 @@
-package org.example;
-
-import org.example.builder.Car;
+package org.example.creational;
 
 public class CarConfiguration {
 

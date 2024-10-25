@@ -1,4 +1,4 @@
-package org.example.builder;
+package org.example.creational.builder;
 
 // TODO implement logic
 public class Car {

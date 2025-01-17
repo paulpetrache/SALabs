@@ -7,15 +7,16 @@ public class DocumentFactory {
         switch (type) {
             case "PDF":
                 // TODO: Return a PDFDocument instance
-                return null;
+                return new PDF();
             case "Word":
                 // TODO: Return a WordDocument instance
-                return null;
+                return new Word();
             case "HTML":
                 // TODO: Return an HTMLDocument instance
-                return null;
+                return new HTML();
             default:
                 throw new IllegalArgumentException("Unknown document type: " + type);
         }
     }
 }
+

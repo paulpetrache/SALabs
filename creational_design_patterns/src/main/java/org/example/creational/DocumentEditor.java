@@ -14,8 +14,13 @@ public class DocumentEditor {
         DocumentEditor editor = new DocumentEditor();
 
         // TODO: Test opening different types of documents (PDF, Word, HTML)
+        Document doc = DocumentFactory.createDocument("PDF");
+        Document doc1 = DocumentFactory.createDocument("Word");
+        Document doc2 = DocumentFactory.createDocument("HTML");
         editor.openDocument("PDF");
         editor.openDocument("Word");
         editor.openDocument("HTML");
     }
 }
+
+
